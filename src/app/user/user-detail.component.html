@@ -1,0 +1,50 @@
+<div  *ngIf="loggedIn">Welcome to My Blog {{activeUser.name}}
+  <div class=" container row">
+    <div class="col s12 m6">
+      <div class="card  darken-1" *ngFor="let blog of blogs">
+        <a [routerLink]="['/blog',blog.id]">{{blog.title}}</a>
+
+        <button (click)="updateClick(blog)">Update</button>
+        <button (click)="deleteClick(blog)">Delete</button>
+      </div>
+    </div>
+    <div class="col s12 m6">
+      <div class="card darken-1">
+        <div class="card-content ">
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input placeholder="Blog title"  type="text" (input)="title = $event.target.value" [value]="title" class="validate"   #name1>
+
+                </div>
+                <div class="input-field col s12">
+                  <input  type="text" placeholder="Blog description"  (input)="description = $event.target.value" [value]="description" #desc1 >
+
+                </div>
+                <div class="input-field col s12">
+                  <input  type="text" placeholder="Blog type"  (input)="type = $event.target.value" [value]="type" #type1 >
+
+                </div>
+              </div>
+            </form>
+            <a class="center waves-effect waves-light btn" (click)="checkBlog(name1.value,desc1.value,type1.value)">Add</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+<div *ngIf="loggedOut">
+  page not found. Click Back to login again.
+  <a [routerLink]="['/user']"><button>Back</button></a>
+</div>

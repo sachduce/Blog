@@ -1,0 +1,3 @@
+<li *ngIf="loggedIn"><a [routerLink]="['/home']" (click)="onSignOut()" >Sign Out</a></li>
+<li *ngIf="loggedOut"><a [routerLink]="['/user']">Sign In</a></li>
+<li *ngIf="loggedIn"><a [routerLink]="['/loggedin']" >{{activeUser.name}}</a></li>

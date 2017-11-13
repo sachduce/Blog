@@ -1,0 +1,73 @@
+{
+  "blogs": [
+    {
+      "title": "Apple hid a quarter of a trillion dollars. What’s wrong with that?",
+      "description": "This summer Apple’s ad team made a departure from its usual courtship of coastal hipsters, and ran a campaign featuring country star Brantley Gilbert. “I love the feeling out here,” Gilbert said, his hands brushing wheat in a field outside Leiper’s Fork, Tennessee. “The freedom. The simplicity. The open road.",
+      "type": "Technology",
+      "favourites": [
+        2,
+        1
+      ],
+      "authorId": 2,
+      "id": 2
+    },
+    {
+      "title": "Los Angeles is quickly becoming a place exclusively for the white and rich",
+      "description": "L.A.’s Black population has declined by 100,000 since the 1980s, falling from 13% of the County population to 8% in just a few decades. Hollywood alone saw the displacement of 13,000 Latinos between 2000 and 2010, pushed out by rising rents to make way for upscale redevelopment. These are just two of the most eye-popping figures that illustrate a larger point: Los Angeles is increasingly becoming solely accessible to the rich, and the rich are disproportionately white. (“Black and Mexican households have one cent for every dollar of wealth held by the average white household,” according to The Color of Wealth in Los Angeles.)",
+      "type": "Economy",
+      "favourites": [
+        1
+      ],
+      "authorId": 2,
+      "id": 3
+    },
+    {
+      "title": "The Myth of the Monty Hall Problem",
+      "description": "At some point, you’ve probably heard of the Monty Hall Problem. It’s been referenced in books and movies, and it was briefly made famous by Parade magazine contributor Marilyn vos Savant in 1990. It’s alleged to be an incredibly difficult and counterintuitive problem that befuddles common folk and experts alike. Here’s what economist Tim Harford wrote about it recently at the Financial Times:",
+      "type": "Maths",
+      "favourites": [
+        1
+      ],
+      "authorId": 3,
+      "id": 7
+    },
+    {
+      "title": "Demonetisaation",
+      "description": "Demonetization is the act of stripping a currency unit of its status as legal tender. It occurs whenever there is a change of national currency: The current form or forms of money is pulled from circulation and retired, often to be replaced with new notes or coins.",
+      "type": "Economics",
+      "favourites": [
+        1
+      ],
+      "authorId": 1,
+      "id": 10
+    },
+    {
+      "title": "Can Europe emulate Silicon Valley’s success?",
+      "description": "It is surprising to think that while Europe has a similar sized economy to the US and double the population, European venture-capital activity is just a fifth of that seen on the other side of the Atlantic. For decades, Silicon Valley has acted as a magnet for entrepreneurs and investors across the globe, pulling in billions of dollars to the US economy, as well as thousands of the brightest and best minds. It’s little wonder that entrepreneurial hubs in most other major global economies seek to emulate its success. A number of factors have prevented many European technology companies from reaching the same levels of dominance as those in the US. But there are signs that this is reaching a turning point, as a recent report reveals the European venture-capital industry and investment ecosystem has now matured.",
+      "type": "Politics",
+      "favourites": [],
+      "authorId": 1,
+      "id": 11
+    }
+  ],
+  "users": [
+    {
+      "name": "lovish",
+      "password": "qwerty",
+      "status": true,
+      "id": 1
+    },
+    {
+      "name": "anjali",
+      "password": "qwerty",
+      "status": false,
+      "id": 2
+    },
+    {
+      "name": "anant",
+      "password": "qwerty",
+      "status": false,
+      "id": 3
+    }
+  ]
+}
